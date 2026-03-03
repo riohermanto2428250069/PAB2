@@ -1,0 +1,22 @@
+[
+    {
+        "nama" :"Budi Setiawan",
+        "umur" :30,
+        "alamat" :{
+            "jalan" :"JL. Pahlawan",
+            "kota " : "Surabaya",
+            "provinsi" : "Jawa Timur"
+        },
+        "hobi" :["membaca","bersepeda"]
+    },
+    {
+        "nama" :"Ferdian Lubis",
+        "umur" :25,
+        "alamat" :{
+            "jalan" :"JL. Cipto",
+            "kota " : "Jakarta",
+            "provinsi" : "DKI Jakarta"
+        },
+        "hobi" :["Menulis","makan"]
+    }
+]
