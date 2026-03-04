@@ -7,20 +7,20 @@ class ApiService {
   static const String apiKey = '96f01486f0cf7a82013a17f94ae5f968';
 
   Future<List<Map<String, dynamic>>> getAllMovies() async {
-    final response = await http.get(Uri.parse("$baseUrl/movie/now_playing?api_key$apiKey"));
+    final response = await http.get(Uri.parse("$baseUrl/movie/now_playing?api_key=$apiKey"));
     final data = json.decode(response.body);
     return List<Map<String, dynamic>>.from(data['results']);
 
   }
     
     Future<List<Map<String, dynamic>>> getTrendingMovies() async {
-    final response = await http.get(Uri.parse("$baseUrl/trending/movie/week?api_key$apiKey"));
+    final response = await http.get(Uri.parse("$baseUrl/trending/movie/week?api_key=$apiKey"));
     final data = json.decode(response.body);
     return List<Map<String, dynamic>>.from(data['results']);
   }
 
     Future<List<Map<String, dynamic>>> getPopularMovies() async {
-    final response = await http.get(Uri.parse("$baseUrl/movie/popular?api_key$apiKey"));
+    final response = await http.get(Uri.parse("$baseUrl/movie/popular?api_key=$apiKey"));
     final data = json.decode(response.body);
     return List<Map<String, dynamic>>.from(data['results']);
   }
