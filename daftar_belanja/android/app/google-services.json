@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "199561142413",
+    "project_id": "first-app-f2d4c",
+    "storage_bucket": "first-app-f2d4c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199561142413:android:014ecb69b60a1a369c82c4",
+        "android_client_info": {
+          "package_name": "com.example.daftar_belanja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV7Vz2B3VUr72qDK79bdBME8J39VOUqmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
